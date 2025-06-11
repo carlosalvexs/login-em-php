@@ -1,0 +1,64 @@
+/* home.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fa;
+    color: #222;
+    min-height: 100vh;
+}
+
+/* Container for home content */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 32px 24px;
+}
+
+/* Headings */
+.container h1 {
+    font-size: 2.5rem;
+    color: #2a4d8f;
+    margin-bottom: 16px;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    color: #3a5fa0;
+    margin-bottom: 12px;
+}
+
+/* Paragraphs */
+.container p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+/* Example button style */
+.container button {
+    display: inline-block;
+    background: #2a4d8f;
+    color: #fff;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+.container button:hover {
+    background: #1d3666;
+}
