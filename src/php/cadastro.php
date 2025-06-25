@@ -19,6 +19,6 @@
     }else{
         $sql = "INSERT INTO usuarios (userName, userEmail, userPassword, userPhone, userCpf, userBirth) VALUES ('$nome', '$email', '$senha', '$telefone', '$cpf', '$nascimento');";
         $conexao -> query($sql);
-        header("Location: ../pages/home.php");
+        header("Location: ../pages/login.php");
     }
 ?>
